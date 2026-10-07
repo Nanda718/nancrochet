@@ -1,4 +1,4 @@
-# 🧶 Site de Crochê
+# 🧶 Nan Crochet Site
 
 Site vitrine desenvolvido para divulgação de produtos artesanais em crochê.
 
