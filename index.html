@@ -7,17 +7,17 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/produtos.css">
 </head>
 
 <body>
 
     <header>
         
-         
-
-        <h1>Nan Crochet</h1>
+        <img class="logo-nome" src="img/nan crochet cartao de visita - Cartão de visita (formato EUA) - Google Chrome 09_10_2026 16_33_24.png" alt="">
 
         <nav>
+            
             <a href="#inicio">Início</a>
             <a href="#produtos">Produtos</a>
             <a href="#sobre">Sobre</a>
@@ -29,19 +29,14 @@
 
          <section id="inicio">
 
-            <video autoplay muted loop playsinline class="hero-video">
-        <source src="videos/hero-video.mp4" type="video/mp4">
-        Seu navegador não suporta vídeos.
-    </video>
+            <img class="hero-img" src="img/hero.png" alt="">
 
      <div class="hero-overlay"></div>
 
     <div class="hero-content">
         <h2>Ateliê Nan Crochet</h2>
-        <p>Amor em cada ponto!</p>
+        <p>Amor em cada ponto.</p>
 
-        <a href="#produtos">Saiba Mais</a>
-        <a href="https://wa.me/5571999528849">Falar pelo WhatsApp</a>
     </div>
 
    
@@ -57,18 +52,107 @@
 
 </section>
 
+    <!-- ===== SEÇÃO DE PRODUTOS ===== -->
+<section id="produtos">
+    <div class="produtos-cabecalho">
+        <span class="produtos-detalhe">Feito à mão, com carinho</span>
+        <h2>Nossas criações</h2>
+        <p>Peças únicas para trazer mais delicadeza ao seu dia.</p>
+    </div>
+
+    <div class="slider-container">
+        <button class="slider-btn slider-anterior"
+                type="button"
+                aria-label="Produto anterior">
+            &#10094;
+        </button>
+
+        <div class="slider-janela">
+            <div class="slider-trilha">
+
+                <article class="produto-card">
+                    <img src="img/produtos/bolsa-croche.jpg"
+                         alt="Bolsa artesanal de crochê">
+                    <div class="produto-info">
+                        <h3>Bolsa de crochê</h3>
+                        <p>Feita à mão, com detalhes delicados.</p>
+                        <span class="produto-preco">R$ 89,90</span>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <img src="img/produtos/top-croche.jpg"
+                         alt="Top artesanal de crochê">
+                    <div class="produto-info">
+                        <h3>Top de crochê</h3>
+                        <p>Uma peça cheia de personalidade.</p>
+                        <span class="produto-preco">R$ 69,90</span>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <img src="img/produtos/bucket-croche.jpg"
+                         alt="Bucket hat de crochê">
+                    <div class="produto-info">
+                        <h3>Bucket hat</h3>
+                        <p>Estilo artesanal para todos os dias.</p>
+                        <span class="produto-preco">R$ 49,90</span>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <img src="img/produtos/porta-copos.jpg"
+                         alt="Conjunto de porta-copos de crochê">
+                    <div class="produto-info">
+                        <h3>Porta-copos</h3>
+                        <p>Pequenos detalhes que encantam.</p>
+                        <span class="produto-preco">R$ 24,90</span>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <img src="img/produtos/flores-croche.jpg"
+                         alt="Flores feitas de crochê">
+                    <div class="produto-info">
+                        <h3>Buquê de crochê</h3>
+                        <p>Flores feitas para durar.</p>
+                        <span class="produto-preco">R$ 39,90</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+
         <section id="sobre">
-            <h2>Sobre nós</h2>
+            <div class="sobre-textos">
+                 <h2>Sobre a Nan Crochet</h2>
             <p>
-                Conheça nossa história e o carinho por trás de cada peça.
+                A Nan Crochet nasceu da vontade de criar, transformar fios em arte e compartilhar o amor pelo crochê. Cada peça é feita à mão, com carinho, dedicação e atenção aos detalhes,
+                 tornando cada criação única e especial. Mais do que uma loja, a Nan Crochet é um espaço onde a criatividade ganha forma e cada ponto carrega um pouquinho de amor.
             </p>
+            </div>
+           
         </section>
+
+    
+
+        <button class="slider-btn slider-proximo"
+                type="button"
+                aria-label="Próximo produto">
+            &#10095;
+        </button>
+    </div>
+
+    <div class="slider-indicadores" aria-label="Navegação dos produtos"></div>
+</section>
+
 
         <section id="contato">
             <h2>Faça sua encomenda</h2>
             <p>Entre em contato para consultar produtos e encomendas personalizadas.</p>
 
-            <a href="https://wa.me/SEUNUMERO">Entrar em contato</a>
+            <a href="https://wa.me/71999528849">Entrar em contato</a>
         </section>
 
     </main>
@@ -78,5 +162,6 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/produtos.js"></script>
 </body>
 </html>

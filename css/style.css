@@ -3,28 +3,29 @@
 /* ===== CABEÇALHO ===== */
 
 header {
-    background-color: #3f3f3f;
-    color: #fff;
-    padding: 20px 8%;
+    background-color: #f6f6ee;
+    color: #22094b;
+    padding: 15px 8%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header h1 {
-    font-size: 24px;
-    letter-spacing: 2px;
+.logo-nome{
+    width: 300px;
 }
 
 nav {
     display: flex;
-    gap: 25px;
+    gap: 85px;
+   
 }
 
 nav a {
-    font-size: 14px;
+    font-size:35px;
     transition: opacity 0.3s;
+    font-family: "Cookie", cursive;
 }
 
 nav a:hover {
@@ -47,7 +48,7 @@ nav a:hover {
     color: #fff;
 }
 
-.hero-video {
+.hero-img {
     position: absolute;
     inset: 0;
 
@@ -62,7 +63,7 @@ nav a:hover {
     position: absolute;
     inset: 0;
 
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(60, 54, 61, 0.45);
     z-index: 1;
 }
 
@@ -73,17 +74,17 @@ nav a:hover {
 }
 
 #inicio h2 {
-   font-family: "Spicy Rice", serif;
-    font-size: 80px;
-    margin-bottom: 15px;
+   font-family: "Agbalumo", system-ui;
+    font-size: 100px;
 }
 
 #inicio p {
-    font-family: "Betania Patmos In", cursive;
+    font-family: "Cookie", cursive;
     font-size: 50px;
     font-style: italic;
-    color: #f0f0f0;
-    margin-bottom: 30px;
+    color: #4a1080;
+    margin-bottom: 10%;
+    margin-top: -30px;
 }
 
 
@@ -104,28 +105,31 @@ nav a:hover {
     height: 100%;
 }
 
+/* ===== SOBRE ===== */
 
-/* ===== BOTÕES ===== */
-
-#inicio a,
-#contato a {
-    display: inline-block;
-
-    background-color: #f5f5f3;
-    color: #333;
-
-    padding: 12px 24px;
-    margin: 5px 10px 5px 0;
-
-    transition: background-color 0.3s;
+#sobre {
+    background: #f6f6ee !important;
+    min-height: 70vh;
+    padding: 60px 8%;
 }
 
-#inicio a:hover,
-#contato a:hover {
-    background-color: #ddd;
+.sobre-textos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 26%;
+    width: 50%;
+    
+}
+.sobre-textos h2{
+    font-size: 70px;
+    color: #3f3f3f;
 }
 
-
+.sobre-textos p{
+    font-size: 20px;
+    text-align: center;
+}
 /* ===== SEÇÃO DE PRODUTOS ===== */
 
 #produtos {
@@ -173,6 +177,8 @@ nav a:hover {
     color: #666;
     margin-bottom: 25px;
 }
+
+
 
 
 /* ===== RODAPÉ ===== */
